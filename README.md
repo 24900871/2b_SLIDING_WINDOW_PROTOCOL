@@ -38,11 +38,14 @@ while True:
     print(s.recv(1024).decode()) 
     s.send("acknowledgement recived from the server".encode())
 ~~~
-## OUPUT
+## OUTPUT
+
 CLIENT
+
 ![image](https://github.com/user-attachments/assets/b656b55e-7415-4cd9-811d-b3e40bf0c043)
 
 SERVER
+
 ![image](https://github.com/user-attachments/assets/aef4d9da-d5fb-4bb1-8b03-03ab445d5118)
 
 
